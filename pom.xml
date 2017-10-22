@@ -17,6 +17,7 @@
 		<mysql-connector.version>5.1.17</mysql-connector.version>
 		<jsf.version>2.2.12</jsf.version>
 		<primefaces.version>5.3</primefaces.version>
+		<junit.version>4.12</junit.version>
 
 		<version.wildfly>9.0.2.Final</version.wildfly>
 		<jboss.home>${project.build.directory}/wildfly-${version.wildfly}</jboss.home>
@@ -88,6 +89,7 @@
 			<version>${servlet.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!-- JSF -->
 		<dependency>
 			<groupId>com.sun.faces</groupId>
@@ -101,11 +103,19 @@
 			<version>${jsf.version}</version>
 			<scope>compile</scope>
 		</dependency>
+		
 		<!-- PrimeFaces -->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>${primefaces.version}</version>
+		</dependency>
+		
+		<!-- jUnit -->
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>${junit.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
