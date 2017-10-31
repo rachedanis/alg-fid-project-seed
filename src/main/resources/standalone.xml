@@ -29,6 +29,7 @@
         <extension module="org.wildfly.extension.security.manager"/>
         <extension module="org.wildfly.extension.undertow"/>
     </extensions>
+    <default-missing-method-permissions-deny-access value="true"/>
     <management>
         <security-realms>
             <security-realm name="ManagementRealm">

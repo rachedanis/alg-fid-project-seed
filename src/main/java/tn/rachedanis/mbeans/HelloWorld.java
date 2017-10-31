@@ -1,4 +1,4 @@
-package tn.rachedanis.beans;
+package tn.rachedanis.mbeans;
 
 import javax.faces.bean.ManagedBean;
 
